@@ -3,6 +3,6 @@ constant: connection {
 }
 
 # url of your Salesforce domain for object links
-constant: domain {
-  value: "keboola.lightning.force.com"
+constant: hubspot_account_id {
+  value: "505715"
 }

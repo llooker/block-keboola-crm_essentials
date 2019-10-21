@@ -12,7 +12,7 @@ view: opportunity {
   dimension: opportunity_url {
     label: "Opportunity URL"
     type: string
-    sql:  'https://@{domain}/lightning/r/Opportunity' || ${opportunity_id} || '/view' ;;
+    sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/' || ${opportunity_id} ;;
   }
 
   dimension: company_id {

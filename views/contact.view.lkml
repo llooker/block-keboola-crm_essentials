@@ -11,7 +11,7 @@ view: contact {
   dimension: contact_url {
     label: "Contact URL"
     type: string
-    sql:  'https://@{domain}/lightning/r/' || iff(${contact_type} = 'Contact' , 'Contact/', 'Lead/') || ${contact_id} || '/view' ;;
+    sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/' || ${contact_id} ;;
   }
 
   dimension: contact {

@@ -12,7 +12,7 @@ view: company {
     label: "Company URL"
     type: string
     # hidden: yes
-    sql:  'https://@{domain}/lightning/r/Account' || ${company_id} || '/view' ;;
+    sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/company/' || ${company_id} ;;
   }
 
   dimension: company {
