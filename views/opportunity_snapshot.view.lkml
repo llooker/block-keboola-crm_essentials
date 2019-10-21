@@ -83,6 +83,12 @@ view: opportunity_snapshot {
     sql: ${TABLE}."STAGE_CHANGE"='Yes' ;;
   }
 
+  dimension: max_date_in_month {
+    description: "Defines last available snapshot date in month per opportunity."
+    type: yesno
+    sql: ${TABLE}."MAX_DATE_IN_MONTH"='true' ;;
+  }
+
   measure: opportunity_value {
     description: "Opportunity value in the time of snapshot"
     type: sum_distinct
