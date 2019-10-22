@@ -32,7 +32,7 @@
 
 
 # This Looker Block is designed to be powered by a scaffold in Keboola connection
-# that will acquire and transform data from Salesforce into the model expected here.
+# that will acquire and transform data from HubSpot into the model expected here.
 #  Please go to https://get.keboola.com/lookerblocks if you haven't already.
 
 # The connection name can be changed in the manifest file if desired, along with
