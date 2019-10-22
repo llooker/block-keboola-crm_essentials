@@ -101,6 +101,19 @@ view: opportunity {
   dimension: stage {
     type: string
     sql: ${TABLE}."STAGE" ;;
+    order_by_field: stage_order
+  }
+
+  dimension: stage_order {
+    type: number
+    hidden: yes
+    sql: ${TABLE}."STAGE_ORDER" ;;
+  }
+
+  dimension: probability_dimension {
+    type: number
+    hidden: yes
+    sql: ${TABLE}."PROBABILITY" ;;
   }
 
   measure: opportunity_value {
@@ -109,6 +122,12 @@ view: opportunity {
     sql: ${opportunity_value_dimension} ;;
     value_format: "#,##0"
     drill_fields: [company_opportunity_source_employee*, opportunity_value]
+  }
+
+  measure: opportunity_probability {
+    type: number
+    sql: ${probability_dimension}/100 ;;
+    value_format: "##0%"
   }
 
   measure: count {
