@@ -30,22 +30,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 31}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 33}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 35},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 36}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 38},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 40}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 41},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 43}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 45}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 31}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -71,6 +80,7 @@
     show_totals_labels: true
     show_silhouette: false
     totals_color: "#808080"
+    listen: {}
     row: 12
     col: 16
     width: 8
@@ -95,22 +105,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 96}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 98}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 100},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 101}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 103},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 105}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 106},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 108}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 110}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 96}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -136,6 +155,7 @@
     show_totals_labels: true
     show_silhouette: false
     totals_color: "#808080"
+    listen: {}
     row: 12
     col: 0
     width: 8
@@ -160,22 +180,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 161}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 163}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 165},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 166}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 168},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 170}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 171},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 173}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 175}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 161}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -206,14 +235,6 @@
     col: 8
     width: 8
     height: 6
-  - name: 'scaffold'
-    type: text
-    title_text: ''
-    subtitle_text: <font size="5px"><font color="#408ef7"><b>Hubspot CRM</b></font>
-    row: 0
-    col: 0
-    width: 7
-    height: 2
   - name: 'dashboard'
     type: text
     title_text: ''
@@ -247,8 +268,10 @@
     comparison_label: Change
     enable_conditional_formatting: true
     conditional_formatting: [{type: less than, value: 0, background_color: "#ed6168",
-        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3,
+          __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 250},
+        bold: false, italic: false, strikethrough: false, fields: !!null '', __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 249}]
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     color_range: ["#dd3333", "#80ce5d", "#f78131", "#369dc1", "#c572d3", "#36c1b3",
@@ -260,22 +283,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 261}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 263}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 265},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 266}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 268},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 270}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 271},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 273}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 275}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 261}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -328,22 +360,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 329}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 331}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 333},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 334}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 336},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 338}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 339},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 341}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 343}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 329}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -403,8 +444,10 @@
     comparison_label: Added Value
     enable_conditional_formatting: true
     conditional_formatting: [{type: less than, value: 0, background_color: "#ed6168",
-        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3,
+          __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 406},
+        bold: false, italic: false, strikethrough: false, fields: !!null '', __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 405}]
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     color_range: ["#dd3333", "#80ce5d", "#f78131", "#369dc1", "#c572d3", "#36c1b3",
@@ -416,22 +459,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 417}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 419}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 421},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 422}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 424},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 426}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 427},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 429}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 431}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 417}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -484,8 +536,10 @@
     comparison_label: Won Value
     enable_conditional_formatting: true
     conditional_formatting: [{type: less than, value: 0, background_color: "#ed6168",
-        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3,
+          __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 487},
+        bold: false, italic: false, strikethrough: false, fields: !!null '', __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 486}]
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     color_range: ["#dd3333", "#80ce5d", "#f78131", "#369dc1", "#c572d3", "#36c1b3",
@@ -497,22 +551,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 498}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 500}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 502},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 503}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 505},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 507}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 508},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 510}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 512}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 498}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -565,8 +628,10 @@
     comparison_label: Lost Value
     enable_conditional_formatting: true
     conditional_formatting: [{type: less than, value: 0, background_color: "#ed6168",
-        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        font_color: "#e7e7e7", color_application: {collection_id: legacy, palette_id: legacy_sequential3,
+          __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 568},
+        bold: false, italic: false, strikethrough: false, fields: !!null '', __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 567}]
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     color_range: ["#dd3333", "#80ce5d", "#f78131", "#369dc1", "#c572d3", "#36c1b3",
@@ -578,22 +643,31 @@
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: Closed Lost - opportunity_snapshot.opportunity_value,
             id: Closed Lost - opportunity_snapshot.opportunity_value, name: Closed
-              Lost}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
+              Lost, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 579}, {axisId: Closed Won - opportunity_snapshot.opportunity_value,
             id: Closed Won - opportunity_snapshot.opportunity_value, name: Closed
-              Won}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value, id: Deep
-              Dive - opportunity_snapshot.opportunity_value, name: Deep Dive}, {axisId: Discovery
-              - opportunity_snapshot.opportunity_value, id: Discovery - opportunity_snapshot.opportunity_value,
-            name: Discovery}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
-            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation},
+              Won, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 581}, {axisId: Deep Dive - opportunity_snapshot.opportunity_value,
+            id: Deep Dive - opportunity_snapshot.opportunity_value, name: Deep Dive,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 583},
+          {axisId: Discovery - opportunity_snapshot.opportunity_value, id: Discovery
+              - opportunity_snapshot.opportunity_value, name: Discovery, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 584}, {axisId: Negotiation - opportunity_snapshot.opportunity_value,
+            id: Negotiation - opportunity_snapshot.opportunity_value, name: Negotiation,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 586},
           {axisId: Nurturing - opportunity_snapshot.opportunity_value, id: Nurturing
-              - opportunity_snapshot.opportunity_value, name: Nurturing}, {axisId: Proposal
-              - opportunity_snapshot.opportunity_value, id: Proposal - opportunity_snapshot.opportunity_value,
-            name: Proposal}, {axisId: Stalled - opportunity_snapshot.opportunity_value,
-            id: Stalled - opportunity_snapshot.opportunity_value, name: Stalled},
-          {axisId: Trial / PoC - opportunity_snapshot.opportunity_value, id: Trial
-              / PoC - opportunity_snapshot.opportunity_value, name: Trial / PoC}],
-        showLabels: false, showValues: false, unpinAxis: false, tickDensity: default,
-        tickDensityCustom: 5, type: linear}]
+              - opportunity_snapshot.opportunity_value, name: Nurturing, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 588}, {axisId: Proposal - opportunity_snapshot.opportunity_value,
+            id: Proposal - opportunity_snapshot.opportunity_value, name: Proposal,
+            __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml, __LINE_NUM: 589},
+          {axisId: Stalled - opportunity_snapshot.opportunity_value, id: Stalled -
+              opportunity_snapshot.opportunity_value, name: Stalled, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 591}, {axisId: Trial / PoC - opportunity_snapshot.opportunity_value,
+            id: Trial / PoC - opportunity_snapshot.opportunity_value, name: Trial
+              / PoC, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+            __LINE_NUM: 593}], showLabels: false, showValues: false, unpinAxis: false,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/pipeline_development_hubspot.dashboard.lookml,
+        __LINE_NUM: 579}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
     y_axis_tick_density: default
@@ -626,6 +700,14 @@
     col: 8
     width: 8
     height: 4
+  - name: 'scaffold'
+    type: text
+    title_text: ''
+    subtitle_text: <font size="5px"><font color="#408ef7"><b>CRM</b></font>
+    row: 0
+    col: 0
+    width: 7
+    height: 2
   filters:
   - name: Date Range
     title: Date Range

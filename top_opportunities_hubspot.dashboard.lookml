@@ -212,7 +212,7 @@
     height: 2
   - name: 'scaffold'
     type: text
-    subtitle_text: <font size="5px"><font color="#408ef7"><b>Hubspot - CRM</b></font>
+    subtitle_text: <font size="5px"><font color="#408ef7"><b>CRM</b></font>
     row: 0
     col: 0
     width: 7
