@@ -1,5 +1,5 @@
-- dashboard: pipeline_development_hubspot
-  title: Pipeline Development Hubspot
+- dashboard: pipeline_development
+  title: Pipeline Development
   layout: newspaper
   elements:
   - name: 'powered by'
@@ -12,7 +12,7 @@
     height: 2
   - title: Pipeline History - weighted value
     name: Pipeline History - weighted value
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_column
     fields: [opportunity_snapshot.snapshot_month, opportunity_snapshot.stage, opportunity_snapshot.opportunity_value_weighted]
@@ -77,7 +77,7 @@
     height: 6
   - title: Pipeline History - opportunity count
     name: Pipeline History - opportunity count
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_column
     fields: [opportunity_snapshot.snapshot_month, opportunity_snapshot.stage, opportunity_snapshot.opportunities]
@@ -142,7 +142,7 @@
     height: 6
   - title: Pipeline History - value
     name: Pipeline History - value
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_column
     fields: [opportunity_snapshot.snapshot_month, opportunity_snapshot.stage, opportunity_snapshot.opportunity_value]
@@ -225,7 +225,7 @@
     height: 2
   - title: Pipeline Value Change
     name: Pipeline Value Change
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunity_value, opportunity_snapshot.previous_opportunity_value]
@@ -310,7 +310,7 @@
     height: 4
   - title: Stage Changes
     name: Stage Changes
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: sankey
     fields: [opportunity_snapshot.previous_stage, opportunity_snapshot.stage, opportunity_snapshot.opportunities]
@@ -385,7 +385,7 @@
     height: 2
   - title: New Opportunities
     name: New Opportunities
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunities, opportunity_snapshot.opportunity_value]
@@ -466,7 +466,7 @@
     height: 4
   - title: Opportunities Won
     name: Opportunities Won
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunities, opportunity_snapshot.opportunity_value]
@@ -547,7 +547,7 @@
     height: 4
   - title: Opportunities Lost
     name: Opportunities Lost
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunities, opportunity_snapshot.opportunity_value]

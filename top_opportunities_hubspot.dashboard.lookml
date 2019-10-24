@@ -1,10 +1,10 @@
-- dashboard: top_opportunities_hubspot
-  title: Top Opportunities Hubspot
+- dashboard: top_opportunities
+  title: Top Opportunities
   layout: newspaper
   elements:
   - title: Top Customers by Won Opportunities Value
     name: Top Customers by Won Opportunities Value
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_bar
     fields: [company.company, opportunity.opportunity_value]
@@ -17,15 +17,15 @@
       palette_id: santa_cruz
       options:
         steps: 5
-        __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml
+        __FILE: crm/top_opportunities.dashboard.lookml
         __LINE_NUM: 19
     x_axis_gridlines: false
     y_axis_gridlines: false
     show_view_names: false
     y_axes: [{label: '', orientation: bottom, series: [{axisId: opportunity.opportunity_value,
-            id: opportunity.opportunity_value, name: Opportunity Value, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            id: opportunity.opportunity_value, name: Opportunity Value, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 23}], showLabels: false, showValues: false, unpinAxis: false,
-        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm/top_opportunities.dashboard.lookml,
         __LINE_NUM: 23}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -63,7 +63,7 @@
     height: 6
   - title: Top Currently Open Opportunities
     name: Top Currently Open Opportunities
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_bar
     fields: [opportunity.opportunity_id, opportunity.opportunity_value, opportunity.opportunity]
@@ -77,15 +77,15 @@
       palette_id: santa_cruz
       options:
         steps: 5
-        __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml
+        __FILE: crm/top_opportunities.dashboard.lookml
         __LINE_NUM: 133
     x_axis_gridlines: false
     y_axis_gridlines: false
     show_view_names: false
     y_axes: [{label: '', orientation: bottom, series: [{axisId: opportunity.opportunity_value,
-            id: opportunity.opportunity_value, name: Opportunity Value, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            id: opportunity.opportunity_value, name: Opportunity Value, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 137}], showLabels: false, showValues: false, unpinAxis: false,
-        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm/top_opportunities.dashboard.lookml,
         __LINE_NUM: 137}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -122,7 +122,7 @@
     height: 6
   - title: Lead Source Performance by New Opportunities Value
     name: Lead Source Performance by New Opportunities Value
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_area
     fields: [opportunity.date_created_month, opportunity.lead_source, opportunity.opportunity_value]
@@ -136,37 +136,37 @@
       palette_id: santa_cruz
       options:
         steps: 5
-        __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml
+        __FILE: crm/top_opportunities.dashboard.lookml
         __LINE_NUM: 189
     x_axis_gridlines: false
     y_axis_gridlines: true
     show_view_names: false
     y_axes: [{label: '', orientation: left, series: [{axisId: " - opportunity.count",
-            id: " - opportunity.count", name: Opportunity, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            id: " - opportunity.count", name: Opportunity, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 193}, {axisId: Client Referral - opportunity.count, id: Client
-              Referral - opportunity.count, name: Client Referral, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              Referral - opportunity.count, name: Client Referral, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 194}, {axisId: Direct - opportunity.count, id: Direct - opportunity.count,
-            name: Direct, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            name: Direct, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 196}, {axisId: Drift - opportunity.count, id: Drift - opportunity.count,
-            name: Drift, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            name: Drift, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 197}, {axisId: Employee Referral - opportunity.count, id: Employee
-              Referral - opportunity.count, name: Employee Referral, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              Referral - opportunity.count, name: Employee Referral, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 198}, {axisId: Event - opportunity.count, id: Event - opportunity.count,
-            name: Event, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            name: Event, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 199}, {axisId: Inbound - opportunity.count, id: Inbound -
-              opportunity.count, name: Inbound, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              opportunity.count, name: Inbound, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 201}, {axisId: Mailchimp - opportunity.count, id: Mailchimp
-              - opportunity.count, name: Mailchimp, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              - opportunity.count, name: Mailchimp, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 202}, {axisId: Other - opportunity.count, id: Other - opportunity.count,
-            name: Other, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            name: Other, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 203}, {axisId: Partner - opportunity.count, id: Partner -
-              opportunity.count, name: Partner, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              opportunity.count, name: Partner, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 204}, {axisId: PlugNPlay - opportunity.count, id: PlugNPlay
-              - opportunity.count, name: PlugNPlay, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              - opportunity.count, name: PlugNPlay, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 205}, {axisId: Zoominfo - opportunity.count, id: Zoominfo
-              - opportunity.count, name: Zoominfo, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+              - opportunity.count, name: Zoominfo, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 207}], showLabels: false, showValues: true, unpinAxis: false,
-        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm/top_opportunities.dashboard.lookml,
         __LINE_NUM: 193}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -226,7 +226,7 @@
     height: 2
   - title: Top Lost Opportunities by Value
     name: Top Lost Opportunities by Value
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     type: looker_bar
     fields: [opportunity.opportunity_id, opportunity.opportunity_value, opportunity.opportunity]
@@ -240,15 +240,15 @@
       palette_id: santa_cruz
       options:
         steps: 5
-        __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml
+        __FILE: crm/top_opportunities.dashboard.lookml
         __LINE_NUM: 76
     x_axis_gridlines: false
     y_axis_gridlines: false
     show_view_names: false
     y_axes: [{label: '', orientation: bottom, series: [{axisId: opportunity.opportunity_value,
-            id: opportunity.opportunity_value, name: Opportunity Value, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+            id: opportunity.opportunity_value, name: Opportunity Value, __FILE: crm/top_opportunities.dashboard.lookml,
             __LINE_NUM: 80}], showLabels: false, showValues: false, unpinAxis: false,
-        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm_hubspot/top_opportunities_hubspot.dashboard.lookml,
+        tickDensity: default, tickDensityCustom: 5, type: linear, __FILE: crm/top_opportunities.dashboard.lookml,
         __LINE_NUM: 80}]
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -297,7 +297,7 @@
     default_value: ''
     allow_multiple_values: true
     required: false
-    model: crm_hubspot
+    model: crm
     explore: opportunity
     listens_to_filters: []
     field: contact.lead_source
