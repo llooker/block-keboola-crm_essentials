@@ -1,8 +1,22 @@
-constant: connection {
-  value: "keboola_block_crm_hubspot"
+project_name: "block-keboola-crm_essentials"
+
+################ Constants ################
+
+constant: CONFIG_PROJECT_NAME {
+  value: "block-keboola-crm_essentials-config"
+  export: override_required
 }
 
-# url of your Salesforce domain for object links
-constant: hubspot_account_id {
-  value: "505715"
+constant: CONNECTION {
+  value: "keboola_block_crm_essentials"
+}
+
+constant: SCHEMA_NAME {
+  value: "WORKSPACE_542685775"
+}
+
+################ Dependencies ################
+
+local_dependency: {
+  project: "@{CONFIG_PROJECT_NAME}"
 }

@@ -1,5 +1,11 @@
+include: "//@{CONFIG_PROJECT_NAME}/views/opportunity.view"
+
 view: opportunity {
-  sql_table_name: OPPORTUNITY ;;
+  extends: [opportunity_config]
+}
+
+view: opportunity_core {
+  sql_table_name: @{SCHEMA_NAME}.OPPORTUNITY ;;
 
   dimension: opportunity_id {
     label: "Opportunity ID"
@@ -12,7 +18,7 @@ view: opportunity {
   dimension: opportunity_url {
     label: "Opportunity URL"
     type: string
-    sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/' || ${opportunity_id} ;;
+    #sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/' || ${opportunity_id} ;;
   }
 
   dimension: company_id {

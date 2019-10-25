@@ -1,5 +1,11 @@
+include: "//@{CONFIG_PROJECT_NAME}/views/contact.view"
+
 view: contact {
-  sql_table_name: CONTACT ;;
+  extends: [contact_config]
+}
+
+view: contact_core {
+  sql_table_name: @{SCHEMA_NAME}.CONTACT ;;
 
   dimension: contact_id {
     label: "Contact ID"
@@ -11,7 +17,7 @@ view: contact {
   dimension: contact_url {
     label: "Contact URL"
     type: string
-    sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/' || split_part(${contact_id}, '_', 1) ;;
+    #sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/' || split_part(${contact_id}, '_', 1) ;;
   }
 
   dimension: contact {

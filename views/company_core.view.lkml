@@ -1,5 +1,11 @@
+include: "//@{CONFIG_PROJECT_NAME}/views/company.view"
+
 view: company {
-  sql_table_name: COMPANY ;;
+  extends: [company_config]
+}
+
+view: company_core {
+  sql_table_name: @{SCHEMA_NAME}.COMPANY ;;
 
   dimension: company_id {
     label: "Company ID"
@@ -12,7 +18,7 @@ view: company {
     label: "Company URL"
     type: string
     # hidden: yes
-    sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/company/' || ${company_id} ;;
+    #sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/company/' || ${company_id} ;;
   }
 
   dimension: company {

@@ -1,5 +1,11 @@
+include: "//@{CONFIG_PROJECT_NAME}/views/employee.view"
+
 view: employee {
-  sql_table_name: EMPLOYEE ;;
+  extends: [employee_config]
+}
+
+view: employee_core {
+  sql_table_name: @{SCHEMA_NAME}.EMPLOYEE ;;
 
   dimension: employee_id {
     label: "Employee ID"

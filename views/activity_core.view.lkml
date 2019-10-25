@@ -1,5 +1,11 @@
+include: "//@{CONFIG_PROJECT_NAME}/views/activity.view"
+
 view: activity {
-  sql_table_name: ACTIVITY ;;
+  extends: [activity_config]
+}
+
+view: activity_core {
+  sql_table_name: @{SCHEMA_NAME}.ACTIVITY ;;
 
   dimension: activity_id {
     label: "Activity ID"
