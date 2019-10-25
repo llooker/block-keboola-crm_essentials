@@ -17,7 +17,7 @@ view: contact_core {
   dimension: contact_url {
     label: "Contact URL"
     type: string
-    #sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/' || split_part(${contact_id}, '_', 1) ;;
+    sql:  '' ;;
   }
 
   dimension: contact {

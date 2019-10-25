@@ -18,7 +18,7 @@ view: opportunity_core {
   dimension: opportunity_url {
     label: "Opportunity URL"
     type: string
-    #sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/' || ${opportunity_id} ;;
+    sql:  '' ;;
   }
 
   dimension: company_id {

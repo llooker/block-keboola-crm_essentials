@@ -18,7 +18,7 @@ view: company_core {
     label: "Company URL"
     type: string
     # hidden: yes
-    #sql:  'https://app.hubspot.com/contacts/@{hubspot_account_id}/company/' || ${company_id} ;;
+    sql:  '' ;;
   }
 
   dimension: company {
