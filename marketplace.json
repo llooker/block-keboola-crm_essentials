@@ -1,0 +1,35 @@
+{
+  "label": "CRM Essentials",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://www.keboola.com/data/poweredByKeboola.png",
+    "tagline": ""
+  },
+
+  "constants": {
+    "CONNECTION": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "SCHEMA_NAME": {
+      "label": "Schema Name"
+    },
+    "CONFIG_PROJECT_NAME": {
+      "label": "Config Project Name"
+    }
+  },
+  "models": [
+    {
+      "name": "block-keboola-crm_essentials",
+      "connection_constant": "CONNECTION"
+    }
+  ],
+  "auxiliary_projects": [
+    {
+      "git_uri": "",
+      "git_ref": "",
+      "label": "CRM Essentials Config",
+      "constant_name": "CONFIG_PROJECT_NAME"
+    }
+  ]
+}
