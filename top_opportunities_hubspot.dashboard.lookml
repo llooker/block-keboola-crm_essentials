@@ -4,7 +4,7 @@
   elements:
   - title: Top Customers by Won Opportunities Value
     name: Top Customers by Won Opportunities Value
-    model: crm
+    model: block_keboola_crm_essentials
     explore: opportunity
     type: looker_bar
     fields: [company.company, opportunity.opportunity_value]
@@ -63,7 +63,7 @@
     height: 6
   - title: Top Currently Open Opportunities
     name: Top Currently Open Opportunities
-    model: crm
+    model: block_keboola_crm_essentials
     explore: opportunity
     type: looker_bar
     fields: [opportunity.opportunity_id, opportunity.opportunity_value, opportunity.opportunity]
@@ -122,7 +122,7 @@
     height: 6
   - title: Lead Source Performance by New Opportunities Value
     name: Lead Source Performance by New Opportunities Value
-    model: crm
+    model: block_keboola_crm_essentials
     explore: opportunity
     type: looker_area
     fields: [opportunity.date_created_month, opportunity.lead_source, opportunity.opportunity_value]
@@ -226,7 +226,7 @@
     height: 2
   - title: Top Lost Opportunities by Value
     name: Top Lost Opportunities by Value
-    model: crm
+    model: block_keboola_crm_essentials
     explore: opportunity
     type: looker_bar
     fields: [opportunity.opportunity_id, opportunity.opportunity_value, opportunity.opportunity]
@@ -297,7 +297,7 @@
     default_value: ''
     allow_multiple_values: true
     required: false
-    model: crm
+    model: block_keboola_crm_essentials
     explore: opportunity
     listens_to_filters: []
     field: contact.lead_source
