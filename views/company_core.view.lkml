@@ -17,8 +17,13 @@ view: company_core {
   dimension: company_url {
     label: "Company URL"
     type: string
-    # hidden: yes
-    sql:  '' ;;
+    hidden: yes
+    sql: CASE
+            WHEN @{SOURCE} = 'SFDC' THEN 'https://@{SFDC_domain} /lightning/r/Account' || ${company_id} || '/view'
+            WHEN @{SOURCE} = 'HubSpot' THEN 'https://app.hubspot.com/contacts/@{hubspot_account_id}/company/' || ${company_id}
+            WHEN @{SOURCE} = 'Pipedrive' THEN 'https://@{pipedrive_domain}.pipedrive.com/organization/' || ${company_id}
+            ELSE ''
+         END;;
   }
 
   dimension: company {
