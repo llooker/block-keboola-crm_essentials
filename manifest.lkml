@@ -16,25 +16,23 @@ constant: SCHEMA_NAME {
 }
 
 
-# these constants set how Looker creates links back to your CRM:
-
-constant: SOURCE {
-  value: "SFDC"
-# value options: "SFDC", "HubSpot", "Pipedrive"
-}
+# these constants set how Looker creates links back to your CRM (set only what applies):
 
 constant: SFDC_domain {
-  value: "keboola.lightning.force.com"
+  value: ""
+# example: "keboola.lightning.force.com"
 # only needs updating when SOURCE = SFDC, can ignore otherwise
 }
 
 constant: hubspot_account_id {
-  value: "505715"
+  value: ""
+# example: "505715"
 # only needs updating when SOURCE = HubSpot, can ignore otherwise
 }
 
 constant: pipedrive_domain {
-  value: "keboola-f2ed62"
+  value: ""
+# example: "keboola-f2ed62"
 # only needs updating when SOURCE = Pipedrive, can ignore otherwise
 }
 
