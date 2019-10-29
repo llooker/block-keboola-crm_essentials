@@ -39,6 +39,8 @@
 # other constants used by this block (Keboola will automatically create a connection
 # with this name)
 
+connection: "@{CONNECTION}"
+
 label: "Block Keboola CRM Essentials"
 
 include: "/views/**/*.view"
