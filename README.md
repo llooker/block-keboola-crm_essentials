@@ -1,4 +1,4 @@
-# CRM Essentials
+# CRM Essentials by Keboola
 
 ## Keboola Blocks Intro (Scaffold Prerequisite)
 Looker Blocks powered by Keboola are designed to work in tandem with corresponding Keboola Scaffolds in the Keboola Connection platform. Similar to Blocks in nature, Keboola Scaffolds are templatized use-cases that can be instantly deployed into the Keboola platform, providing the whole data management and processing chain required to populate the Looker dashboards.
@@ -7,7 +7,7 @@ Looker Blocks powered by Keboola are designed to work in tandem with correspondi
 This Block connects to data from any Keboola “CRM Essentials” Scaffold into Looker. Its purpose is to provide quick out-of-the-box end to end integration and functionality to be used either stand-alone or to be combined with other data. In order to set up the Keboola data feed, please contact us: [here](https://get.keboola.com/lookerblocks?block=crm_essentials).
 
 ## Data and Block Structure
-This block is built above data from standard CRM objects, so it’s available to almost every Salesforce user. Standard objects needed for the Scaffold and Block to work are (Salesforce terminology used here):
+This block is built above data from standard CRM objects, so it’s available to almost user of the included CRM systems. Standard objects needed for the Scaffold and Block to work are (Salesforce terminology used here):
 
 *  Account
 *  Contact
