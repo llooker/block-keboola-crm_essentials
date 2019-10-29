@@ -18,7 +18,13 @@ view: opportunity_core {
   dimension: opportunity_url {
     label: "Opportunity URL"
     type: string
-    sql:  '' ;;
+    hidden: yes
+    sql:  CASE
+          WHEN @{SFDC_domain} <> '' THEN 'https://@{SFDC_domain}/lightning/r/Opportunity' || ${opportunity_id} || '/view'
+          WHEN @{hubspot_account_id} <> '' THEN 'https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/' || ${opportunity_id}
+          WHEN @{pipedrive_domain} <> '' THEN 'https://@{pipedrive_domain}/deal/' || ${opportunity_id}
+          ELSE ''
+        END;;
   }
 
   dimension: company_id {

@@ -32,7 +32,7 @@ constant: hubspot_account_id {
 
 constant: pipedrive_domain {
   value: ""
-# example: "keboola-f2ed62"
+# example: "keboola-f2ed62.pipedrive.com"
 # only needs updating when SOURCE = Pipedrive, can ignore otherwise
 }
 

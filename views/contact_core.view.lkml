@@ -17,7 +17,13 @@ view: contact_core {
   dimension: contact_url {
     label: "Contact URL"
     type: string
-    sql:  '' ;;
+    hidden: yes
+    sql: CASE
+          WHEN @{SFDC_domain} <> '' THEN 'https://@{SFDC_domain}/lightning/r/' || iff(${contact_type} = 'Contact' , 'Contact/', 'Lead/') || ${contact_id} || '/view'
+          WHEN @{hubspot_account_id} <> '' THEN 'https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/' || split_part(${contact_id}, '_', 1)
+          WHEN @{pipedrive_domain} <> '' THEN 'https://@{pipedrive_domain}/person/' || ${contact_id}
+          ELSE ''
+        END;;
   }
 
   dimension: contact {

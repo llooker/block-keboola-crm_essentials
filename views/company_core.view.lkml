@@ -21,7 +21,7 @@ view: company_core {
     sql: CASE
             WHEN @{SFDC_domain} <> '' THEN 'https://@{SFDC_domain}/lightning/r/Account' || ${company_id} || '/view'
             WHEN @{hubspot_account_id} <> '' THEN 'https://app.hubspot.com/contacts/@{hubspot_account_id}/company/' || ${company_id}
-            WHEN @{pipedrive_domain} <> '' THEN 'https://@{pipedrive_domain}.pipedrive.com/organization/' || ${company_id}
+            WHEN @{pipedrive_domain} <> '' THEN 'https://@{pipedrive_domain}/organization/' || ${company_id}
             ELSE ''
          END;;
   }

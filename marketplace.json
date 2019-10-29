@@ -16,6 +16,18 @@
     },
     "CONFIG_PROJECT_NAME": {
       "label": "Config Project Name"
+    },
+    "SFDC_domain": {
+      "label": "Salesforce domain URL",
+      "description": "If you are using Salesforce, enter the base part of the URL, such as keboola.lightning.force.com - keep empty otherwise"
+    },
+    "hubspot_account_id": {
+      "label": "Hubspot Account ID",
+      "description": "If you are using Hubspot, enter your account ID, such as 505715 - keep empty otherwise"
+    },
+      "pipedrive_domain": {
+      "label": "Pipedrive Domain",
+      "description": "If you are using Pipedrive, enter your domain, such as keboola.pipedrive.com - keep empty otherwise"
     }
   },
   "models": [
