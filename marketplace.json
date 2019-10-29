@@ -3,7 +3,7 @@
   "category_label": "Models",
   "branding": {
     "image_uri": "https://www.keboola.com/data/poweredByKeboola.png",
-    "tagline": ""
+    "tagline": "Your CRM system is often the first data source to include in analytics. Using this Block not only provides fast time to value to get your first reports out to your sales leaders and executives, but also creates a foundation to build and expand reporting."
   },
 
   "constants": {
@@ -19,20 +19,20 @@
     },
     "SFDC_domain": {
       "label": "Salesforce domain URL",
-      "description": "If you are using Salesforce, enter the base part of the URL, such as keboola.lightning.force.com - keep empty otherwise"
+      "description": "If you are using Salesforce, enter the base part of the URL in single quotes, such as 'keboola.lightning.force.com' - keep empty otherwise"
     },
     "hubspot_account_id": {
       "label": "Hubspot Account ID",
-      "description": "If you are using Hubspot, enter your account ID, such as 505715 - keep empty otherwise"
+      "description": "If you are using Hubspot, enter your account ID in single quotes, such as '505715' - keep empty otherwise"
     },
       "pipedrive_domain": {
       "label": "Pipedrive Domain",
-      "description": "If you are using Pipedrive, enter your domain, such as keboola.pipedrive.com - keep empty otherwise"
+      "description": "If you are using Pipedrive, enter your domain in single quotes, such as 'keboola.pipedrive.com' - keep empty otherwise"
     }
   },
   "models": [
     {
-      "name": "block-keboola-crm_essentials",
+      "name": "block_keboola_crm_essentials",
       "connection_constant": "CONNECTION"
     }
   ],
