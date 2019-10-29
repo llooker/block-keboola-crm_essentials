@@ -1,5 +1,5 @@
 {
-  "label": "CRM Essentials",
+  "label": "CRM Essentials by Keboola",
   "category_label": "Models",
   "branding": {
     "image_uri": "https://www.keboola.com/data/poweredByKeboola.png",
@@ -40,7 +40,7 @@
     {
       "git_uri": "",
       "git_ref": "",
-      "label": "CRM Essentials Config",
+      "label": "CRM Essentials by Keboola Config",
       "constant_name": "CONFIG_PROJECT_NAME"
     }
   ]
