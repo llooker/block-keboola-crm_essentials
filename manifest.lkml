@@ -9,10 +9,12 @@ constant: CONFIG_PROJECT_NAME {
 
 constant: CONNECTION {
   value: "keboola_block_crm_essentials"
+  export: override_required
 }
 
 constant: SCHEMA_NAME {
   value: "specify"
+  export: override_required
 }
 
 
