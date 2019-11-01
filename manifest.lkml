@@ -12,7 +12,7 @@ constant: CONNECTION {
 }
 
 constant: SCHEMA_NAME {
-  value: "WORKSPACE_542685775"
+  value: "specify"
 }
 
 

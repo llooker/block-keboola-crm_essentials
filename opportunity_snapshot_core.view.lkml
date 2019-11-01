@@ -1,4 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/opportunity_snapshot.view"
+include: "//@{CONFIG_PROJECT_NAME}/opportunity_snapshot.view"
 
 view: opportunity_snapshot {
   extends: [opportunity_snapshot_config]

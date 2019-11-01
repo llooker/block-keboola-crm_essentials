@@ -1,4 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/contact.view"
+include: "//@{CONFIG_PROJECT_NAME}/contact.view"
 
 view: contact {
   extends: [contact_config]

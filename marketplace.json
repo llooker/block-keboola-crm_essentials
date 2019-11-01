@@ -3,7 +3,7 @@
   "category_label": "Models",
   "branding": {
     "image_uri": "https://www.keboola.com/data/poweredByKeboola.png",
-    "tagline": "Your CRM system is often the first data source to include in analytics. Using this Block not only provides fast time to value to get your first reports out to your sales leaders and executives, but also creates a foundation to build and expand reporting."
+    "tagline": "Out-of-the-box analysis of your sales cycle and pipeline from SalesForce, HubSpot or Pipedrive."
   },
 
   "constants": {
@@ -38,8 +38,8 @@
   ],
   "auxiliary_projects": [
     {
-      "git_uri": "",
-      "git_ref": "",
+      "git_uri": "git://github.com/llooker/block-keboola-crm_essentials-config.git",
+      "git_ref": "7bc1e79774a5c210d12ea2f5537c4e251f645c89",
       "label": "CRM Essentials by Keboola Config",
       "constant_name": "CONFIG_PROJECT_NAME"
     }

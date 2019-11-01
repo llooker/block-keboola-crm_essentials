@@ -1,4 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/activity.view"
+include: "//@{CONFIG_PROJECT_NAME}/activity.view"
 
 view: activity {
   extends: [activity_config]

@@ -1,4 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/company.view"
+include: "//@{CONFIG_PROJECT_NAME}/company.view"
 
 view: company {
   extends: [company_config]

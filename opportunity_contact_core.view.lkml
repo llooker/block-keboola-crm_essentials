@@ -1,4 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/opportunity_contact.view"
+include: "//@{CONFIG_PROJECT_NAME}/opportunity_contact.view"
 
 view: opportunity_contact {
   extends: [opportunity_contact_config]
