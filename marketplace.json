@@ -2,7 +2,7 @@
   "label": "Sales Analytics Essentials by Keboola",
   "category_label": "Models",
   "branding": {
-    "image_uri": "https://www.keboola.com/data/poweredByKeboola.png",
+    "image_uri": "https://marketplace-api.looker.com/block-icons/KeboolaBrand.png",
     "tagline": "Out-of-the-box analysis of your sales cycle and pipeline from SalesForce, HubSpot or Pipedrive."
   },
 
