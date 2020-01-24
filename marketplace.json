@@ -39,7 +39,7 @@
   "auxiliary_projects": [
     {
       "git_uri": "git://github.com/llooker/block-keboola-crm_essentials-config.git",
-      "git_ref": "7bc1e79774a5c210d12ea2f5537c4e251f645c89",
+      "git_ref": "0c7aaa99189425f32f76f33a1cd2d8309d631731",
       "label": "CRM Essentials by Keboola Config",
       "constant_name": "CONFIG_PROJECT_NAME"
     }
