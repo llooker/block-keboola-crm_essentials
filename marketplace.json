@@ -3,7 +3,7 @@
   "category_label": "Models",
   "branding": {
     "image_uri": "https://marketplace-api.looker.com/block-icons/KeboolaBrand.png",
-    "tagline": "Out-of-the-box analysis of support tickets for quick insights."
+    "tagline": "Out-of-the-box analysis of your sales cycle and pipeline from SalesForce, HubSpot or Pipedrive."
   },
 
   "constants": {
