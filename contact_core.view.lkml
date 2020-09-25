@@ -19,9 +19,13 @@ view: contact_core {
     type: string
     hidden: yes
     sql: CASE
-          WHEN @{SFDC_domain} <> '' THEN 'https://@{SFDC_domain}/lightning/r/' || iff(${contact_type} = 'Contact' , 'Contact/', 'Lead/') || ${contact_id} || '/view'
-          WHEN @{hubspot_account_id} <> '' THEN 'https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/' || split_part(${contact_id}, '_', 1)
-          WHEN @{pipedrive_domain} <> '' THEN 'https://@{pipedrive_domain}/person/' || ${contact_id}
+          WHEN @{SFDC_domain} <> '' THEN CONCAT('https://@{SFDC_domain}/lightning/r/', (CASE
+                                                                                          WHEN ${contact_type} = 'Contact'
+                                                                                          THEN 'Contact/'
+                                                                                          ELSE 'Lead/'
+                                                                                        END), ${contact_id}, '/view')
+          WHEN @{hubspot_account_id} <> '' THEN CONCAT('https://app.hubspot.com/contacts/@{hubspot_account_id}/contact/', split_part(${contact_id}, '_', 1))
+          WHEN @{pipedrive_domain} <> '' THEN CONCAT('https://@{pipedrive_domain}/person/', ${contact_id})
           ELSE ''
         END;;
   }

@@ -20,9 +20,9 @@ view: opportunity_core {
     type: string
     hidden: yes
     sql:  CASE
-          WHEN @{SFDC_domain} <> '' THEN 'https://@{SFDC_domain}/lightning/r/Opportunity' || ${opportunity_id} || '/view'
-          WHEN @{hubspot_account_id} <> '' THEN 'https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/' || ${opportunity_id}
-          WHEN @{pipedrive_domain} <> '' THEN 'https://@{pipedrive_domain}/deal/' || ${opportunity_id}
+          WHEN @{SFDC_domain} <> '' THEN CONCAT('https://@{SFDC_domain}/lightning/r/Opportunity', ${opportunity_id}, '/view')
+          WHEN @{hubspot_account_id} <> '' THEN CONCAT('https://app.hubspot.com/contacts/@{hubspot_account_id}/deal/', ${opportunity_id})
+          WHEN @{pipedrive_domain} <> '' THEN CONCAT('https://@{pipedrive_domain}/deal/', ${opportunity_id})
           ELSE ''
         END;;
   }

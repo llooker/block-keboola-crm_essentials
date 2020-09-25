@@ -9,7 +9,7 @@ view: opportunity_snapshot_core {
 
   dimension: snapshot_id {
     type:  string
-    sql: ${TABLE}."OPPORTUNITY_ID"||'_'||${TABLE}."SNAPSHOT_DATE" ;;
+    sql: CONCAT(${TABLE}."OPPORTUNITY_ID", '_', ${TABLE}."SNAPSHOT_DATE") ;;
     hidden: yes
     primary_key: yes
   }
