@@ -1,0 +1,47 @@
+{
+  "label": "Sales Analytics Essentials",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/KeboolaBrand.png",
+    "tagline": "Out-of-the-box analysis of your sales cycle and pipeline from Salesforce, HubSpot or Pipedrive."
+  },
+
+  "constants": {
+    "CONNECTION": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "SCHEMA_NAME": {
+      "label": "Schema Name"
+    },
+    "CONFIG_PROJECT_NAME": {
+      "label": "Config Project Name"
+    },
+    "SFDC_domain": {
+      "label": "Salesforce domain URL",
+      "description": "If you are using Salesforce, enter the base part of the URL in single quotes, such as 'keboola.lightning.force.com' - keep empty otherwise"
+    },
+    "hubspot_account_id": {
+      "label": "Hubspot Account ID",
+      "description": "If you are using Hubspot, enter your account ID in single quotes, such as '505715' - keep empty otherwise"
+    },
+      "pipedrive_domain": {
+      "label": "Pipedrive Domain",
+      "description": "If you are using Pipedrive, enter your domain in single quotes, such as 'keboola.pipedrive.com' - keep empty otherwise"
+    }
+  },
+  "models": [
+    {
+      "name": "block_keboola_crm_essentials",
+      "connection_constant": "CONNECTION"
+    }
+  ],
+  "auxiliary_projects": [
+    {
+      "git_uri": "git://github.com/llooker/block-keboola-crm_essentials-config.git",
+      "git_ref": "0c7aaa99189425f32f76f33a1cd2d8309d631731",
+      "label": "CRM Essentials by Keboola Config",
+      "constant_name": "CONFIG_PROJECT_NAME"
+    }
+  ]
+}
