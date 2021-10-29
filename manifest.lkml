@@ -3,8 +3,7 @@ project_name: "block-keboola-crm_essentials"
 ################ Constants ################
 
 constant: CONNECTION {
-  value: "4mile_bigquery"
-  # value: "keboola_block_crm_essentials"
+  value: "keboola_block_crm_essentials"
   export: override_optional
 }
 
