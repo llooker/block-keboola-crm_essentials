@@ -1,7 +1,11 @@
-explore: opportunity_core {
-  hidden: yes
-  extension: required
+include: "/views/opportunity.view"
+include: "/views/company.view"
+include: "/views/employee.view"
+include: "/views/opportunity_snapshot.view"
+include: "/views/opportunity_contact.view"
+include: "/views/contact.view"
 
+explore: opportunity {
   join: company {
     type: full_outer
     sql_on: ${opportunity.company_id} = ${company.company_id} ;;
