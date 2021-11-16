@@ -43,17 +43,11 @@ connection: "@{CONNECTION}"
 
 label: "Block Keboola CRM Essentials"
 
-include: "*.view"
-include: "*.explore.lkml"
-include: "*.dashboard.lookml"
-include: "//@{CONFIG_PROJECT_NAME}/*.view.lkml"
-include: "//@{CONFIG_PROJECT_NAME}/*.model.lkml"
-include: "//@{CONFIG_PROJECT_NAME}/*.dashboard.lkml"
+## Include Explores
+include: "/explores/contact.explore.lkml"
+include: "/explores/opportunity.explore.lkml"
 
-explore: contact {
-  extends: [contact_config]
-}
-
-explore: opportunity {
-  extends: [opportunity_config]
-}
+## Include Dashboards
+include: "/dashboards/pipeline_development.dashboard.lookml"
+include: "/dashboards/sales_overview.dashboard.lookml"
+include: "/dashboards/top_opportunities.dashboard.lookml"

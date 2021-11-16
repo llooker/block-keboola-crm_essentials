@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/opportunity.view"
-
 view: opportunity {
-  extends: [opportunity_config]
-}
-
-view: opportunity_core {
   sql_table_name: @{SCHEMA_NAME}.OPPORTUNITY ;;
 
   dimension: opportunity_id {

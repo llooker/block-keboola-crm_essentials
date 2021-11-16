@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/opportunity_snapshot.view"
-
 view: opportunity_snapshot {
-  extends: [opportunity_snapshot_config]
-}
-
-view: opportunity_snapshot_core {
   sql_table_name: @{SCHEMA_NAME}.OPPORTUNITY_SNAPSHOT ;;
 
   dimension: snapshot_id {

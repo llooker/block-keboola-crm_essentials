@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/contact.view"
-
 view: contact {
-  extends: [contact_config]
-}
-
-view: contact_core {
   sql_table_name: @{SCHEMA_NAME}.CONTACT ;;
 
   dimension: contact_id {

@@ -29,7 +29,7 @@
     height: 2
   - title: Pipeline History - value
     name: Pipeline History - value
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity_snapshot.snapshot_month, opportunity_snapshot.stage, opportunity_snapshot.opportunity_value]
@@ -95,7 +95,7 @@
     height: 6
   - title: Pipeline History - weighted value
     name: Pipeline History - weighted value
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity_snapshot.snapshot_month, opportunity_snapshot.stage, opportunity_snapshot.opportunity_value_weighted]
@@ -160,7 +160,7 @@
     height: 6
   - title: Pipeline History - opportunity count
     name: Pipeline History - opportunity count
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity_snapshot.snapshot_month, opportunity_snapshot.stage, opportunity_snapshot.opportunities]
@@ -225,7 +225,7 @@
     height: 6
   - title: Stage Changes
     name: Stage Changes
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: sankey
     fields: [opportunity_snapshot.previous_stage, opportunity_snapshot.stage, opportunity_snapshot.opportunities]
@@ -292,7 +292,7 @@
     height: 8
   - title: Pipeline Value Change
     name: Pipeline Value Change
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunity_value, opportunity_snapshot.previous_opportunity_value]
@@ -385,7 +385,7 @@
     height: 2
   - title: New Opportunities
     name: New Opportunities
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunities, opportunity_snapshot.opportunity_value]
@@ -466,7 +466,7 @@
     height: 4
   - title: Opportunities Won
     name: Opportunities Won
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunities, opportunity_snapshot.opportunity_value]
@@ -547,7 +547,7 @@
     height: 4
   - title: Opportunities Lost
     name: Opportunities Lost
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity_snapshot.opportunities, opportunity_snapshot.opportunity_value]

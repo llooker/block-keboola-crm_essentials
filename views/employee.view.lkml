@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/employee.view"
-
 view: employee {
-  extends: [employee_config]
-}
-
-view: employee_core {
   sql_table_name: @{SCHEMA_NAME}.EMPLOYEE ;;
 
   dimension: employee_id {

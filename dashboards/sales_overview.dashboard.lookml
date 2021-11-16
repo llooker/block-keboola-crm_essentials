@@ -18,7 +18,7 @@
     height: 2
   - title: New Contacts (Total)
     name: New Contacts (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: contact
     type: single_value
     fields: [contact.count]
@@ -86,7 +86,7 @@
     height: 2
   - title: New Leads (Total)
     name: New Leads (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: contact
     type: single_value
     fields: [contact.count]
@@ -154,7 +154,7 @@
     height: 2
   - title: New Leads
     name: New Leads
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: contact
     type: looker_column
     fields: [contact.date_created_month, contact.lead_source, contact.count]
@@ -225,7 +225,7 @@
     height: 7
   - title: New Contacts
     name: New Contacts
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: contact
     type: looker_column
     fields: [contact.date_created_month, contact.lead_source, contact.count]
@@ -296,7 +296,7 @@
     height: 7
   - title: New Opportunities
     name: New Opportunities
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity.date_created_month, opportunity.lead_source, opportunity.count]
@@ -363,7 +363,7 @@
     height: 6
   - title: New Opportunities (Total)
     name: New Opportunities (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity.count]
@@ -427,7 +427,7 @@
     height: 2
   - title: New Opportunities Value (Total)
     name: New Opportunities Value (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity.opportunity_value]
@@ -491,7 +491,7 @@
     height: 2
   - title: New Opportunities Value
     name: New Opportunities Value
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity.date_created_month, opportunity.lead_source, opportunity.opportunity_value]
@@ -558,7 +558,7 @@
     height: 6
   - title: Won Opportunities
     name: Won Opportunities
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity.lead_source, opportunity.count, opportunity.date_closed_month]
@@ -627,7 +627,7 @@
     height: 6
   - title: Won Opportunities (Total)
     name: Won Opportunities (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity.count]
@@ -693,7 +693,7 @@
     height: 2
   - title: Won Opportunities Value (Total)
     name: Won Opportunities Value (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity.opportunity_value]
@@ -759,7 +759,7 @@
     height: 2
   - title: Won Opportunities Value
     name: Won Opportunities Value
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity.lead_source, opportunity.date_closed_month, opportunity.opportunity_value]
@@ -828,7 +828,7 @@
     height: 6
   - title: Lost Opportunities (Total)
     name: Lost Opportunities (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity.count]
@@ -894,7 +894,7 @@
     height: 2
   - title: Lost Opportunities Value (Total)
     name: Lost Opportunities Value (Total)
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: single_value
     fields: [opportunity.opportunity_value]
@@ -960,7 +960,7 @@
     height: 2
   - title: Lost Opportunities
     name: Lost Opportunities
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity.lead_source, opportunity.count, opportunity.date_closed_month]
@@ -1029,7 +1029,7 @@
     height: 6
   - title: Lost Opportunities Value
     name: Lost Opportunities Value
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     type: looker_column
     fields: [opportunity.lead_source, opportunity.date_closed_month, opportunity.opportunity_value]
@@ -1131,7 +1131,7 @@
     default_value: ''
     allow_multiple_values: true
     required: false
-    model: block_keboola_crm_essentials
+    model: block_keboola_crm_essentials_v2
     explore: opportunity
     listens_to_filters: []
     field: opportunity.lead_source

@@ -14,9 +14,6 @@
     "SCHEMA_NAME": {
       "label": "Schema Name"
     },
-    "CONFIG_PROJECT_NAME": {
-      "label": "Config Project Name"
-    },
     "SFDC_domain": {
       "label": "Salesforce domain URL",
       "description": "If you are using Salesforce, enter the base part of the URL in single quotes, such as 'keboola.lightning.force.com' - keep empty otherwise"
@@ -32,16 +29,8 @@
   },
   "models": [
     {
-      "name": "block_keboola_crm_essentials",
+      "name": "block_keboola_crm_essentials_v2",
       "connection_constant": "CONNECTION"
-    }
-  ],
-  "auxiliary_projects": [
-    {
-      "git_uri": "git://github.com/llooker/block-keboola-crm_essentials-config.git",
-      "git_ref": "0c7aaa99189425f32f76f33a1cd2d8309d631731",
-      "label": "CRM Essentials by Keboola Config",
-      "constant_name": "CONFIG_PROJECT_NAME"
     }
   ]
 }

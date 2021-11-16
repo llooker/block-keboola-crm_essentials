@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/activity.view"
-
 view: activity {
-  extends: [activity_config]
-}
-
-view: activity_core {
   sql_table_name: @{SCHEMA_NAME}.ACTIVITY ;;
 
   dimension: activity_id {
